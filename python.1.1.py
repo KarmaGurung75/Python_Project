@@ -1,3 +1,4 @@
-a=3
-b=5
-print(a+b)
+a="pooja "
+b="is a "
+c="boy"
+print(a+b+c)

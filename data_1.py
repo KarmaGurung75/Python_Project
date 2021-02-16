@@ -1,0 +1,15 @@
+'''str='python'
+print(str[5])
+print(str[-2])
+print(str[1:5:2])
+print(str[1:6:2])
+print(str[-1:-4:-1])
+print(str[-3:-3:-3])
+'''
+num=[5,2,6,7,9,1]
+print(num[-3:5:1])
+print(num[2:9:-1])
+print(num[2:5])
+print(num[4:1:1])
+print(num[-5:-2])
+print(num[-3:15:1])

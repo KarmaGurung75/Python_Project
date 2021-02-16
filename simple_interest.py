@@ -1,0 +1,6 @@
+principle=float(input('Enter the priciple:'))
+rate=float(input('Enter the Rate:'))
+time=float(input('Enter the time:'))
+a=(principle*time*rate)
+interest=(a/100)
+print("the interest is ",interest)

@@ -88,14 +88,88 @@ while i<=50:
     i=i + 1
 '''
 #wap to find the sum of element of list using for loop
-lst=[10,31,37,40,56,63,70]
+'''lst=[10,31,37,40,56,63,70]
 sum=0
-'''for i in lst:
+for i in lst:
     sum=sum+i
 print(sum)
-'''
 for i in range(7):
     sum=sum+lst[i]
 print("the sum is ",sum)
 
 #wap to find the sum of the element of list using while loop
+'''
+
+
+
+
+
+
+#while(unboundd loop) it will run the loop till it reach the given statemetn
+''''ch=input("Enter the Character")
+while True:
+    ch = input('Enter the character')
+    print("You have inserted character",ch)
+    if ch=='q':
+        break
+print("Program is over")
+
+#for loop is exactly the opposite if the while loop n it is called bounded loop
+'''
+'''
+#nested loop ( it is loop inside the loop)
+for i in range(3):      # represent the row
+    for j in range(4):  # represent the column
+        print("*",end=" ")
+    print()             # used to start the new line by ending the each loop
+
+for i in range(5):
+    for j in range(i+1):
+        print("*",end=" ")
+    print()
+   '''
+#loop practice
+
+for i in range(4):
+    for j in range(i+1):
+        print("1",end=" ")
+    print()
+
+var=1
+for i in range(4):
+    for j in range(i+1):
+        print("",var,end="")
+        var=var+1
+    print()
+
+for i in range(4):
+    for j in range(i+1):
+        j=i+1
+        print('',j,end="")
+    print()
+
+a=65
+for i in range(4):
+    for j in range(i+1):
+        print(chr(a),end=' ')
+        a=a+1
+    print()
+
+a=65
+for i in range(4):
+    for j in range(i+1):
+        print(chr(a),end=' ')
+    a=a+1
+    print()
+
+
+for i in range(4):
+    for j in range(4-i):
+        print("*",end=" ")
+    print()
+var=0
+for i in range(4):
+    for j in range(4-i):
+        print("",var,end=" ")
+        var=var+1
+    print()
